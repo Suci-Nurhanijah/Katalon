@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Click-Filter</name>
+   <tag></tag>
+   <elementGuidId>e230fbdb-8720-4201-b293-e23882358550</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@class = 'product-sort-container' and @option = 'value']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>678a17a8-6f3e-4892-a1c0-da48d78fc61d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>product-sort-container</value>
+      <webElementGuid>badb7cc3-f271-465e-9a90-10de2d94c7a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>option</name>
+      <type>Main</type>
+      <value>value</value>
+      <webElementGuid>dbca0052-a7a0-404e-9042-9c50a9bed06b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

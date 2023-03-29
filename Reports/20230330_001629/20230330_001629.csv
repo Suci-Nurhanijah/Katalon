@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+orderbarang,Chrome 111.0.0.0,,,30-03-23 0:16,30-03-23 0:18,1m - 23.677s,PASSED
+,,,,,,,
+Test Cases/order,Chrome 111.0.0.0,,,30-03-23 0:16,30-03-23 0:18,1m - 23.301s,PASSED
+"order.orderbarang.OrderBarang(""Sauce Labs Backpack"")",Chrome 111.0.0.0,,,30-03-23 0:16,30-03-23 0:16,14.609s,PASSED
+"order.orderbarang.OrderBarang(""Sauce Labs Bike Light"")",Chrome 111.0.0.0,,,30-03-23 0:16,30-03-23 0:17,13.659s,PASSED
+"order.orderbarang.OrderBarang(""Sauce Labs Bolt T-Shirt"")",Chrome 111.0.0.0,,,30-03-23 0:17,30-03-23 0:17,13.559s,PASSED
+"order.orderbarang.OrderBarang(""Sauce Labs Fleece Jacket"")",Chrome 111.0.0.0,,,30-03-23 0:17,30-03-23 0:17,13.672s,PASSED
+"order.orderbarang.OrderBarang(""Sauce Labs Onesie"")",Chrome 111.0.0.0,,,30-03-23 0:17,30-03-23 0:17,13.641s,PASSED
+"order.orderbarang.OrderBarang(""Test.allTheThings() T-Shirt (Red)"")",Chrome 111.0.0.0,,,30-03-23 0:17,30-03-23 0:18,13.675s,PASSED

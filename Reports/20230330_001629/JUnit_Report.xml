@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="orderbarang" time="83.677" tests="1" failures="0" errors="0">
+   <testsuite name="orderbarang" tests="1" failures="0" errors="0" time="83.677" skipped="0" timestamp="2023-03-30 00:16:38" hostname="asus - LAPTOP-0SNF2LAG" id="Test Suites/order/orderbarang">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\asus\\Katalon Studio\\My First Web UI Project\\Reports\\20230330_001628\\order\\orderbarang\\20230330_001629"/>
+         <property name="logFiles" value="C:\\Users\\asus\\Katalon Studio\\My First Web UI Project\\Reports\\20230330_001628\\order\\orderbarang\\20230330_001629\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="asus - LAPTOP-0SNF2LAG"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 111.0.0.0"/>
+         <property name="hostAddress" value="192.168.18.10"/>
+         <property name="sessionId" value="ea654157524cda010936a43d022e61d1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/order" time="83.301" classname="Test Cases/order" status="PASSED">
+         <system-out><![CDATA[2023-03-30 00:16:39 - [TEST_CASE][PASSED] - Test Cases/order: Test Cases/order
+
+2023-03-30 00:16:39 - [TEST_STEP][PASSED] - order.orderbarang.OrderBarang("Sauce Labs Backpack"): order.orderbarang.OrderBarang is PASSED
+
+2023-03-30 00:16:39 - [MESSAGE][INFO] - Open browser
+
+2023-03-30 00:16:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-30 00:16:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-30 00:16:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-30 00:16:42 - [MESSAGE][INFO] - Maximize windows
+
+2023-03-30 00:16:43 - [MESSAGE][PASSED] - Current window maximized
+
+2023-03-30 00:16:43 - [MESSAGE][INFO] - Input URL
+
+2023-03-30 00:16:44 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-03-30 00:16:44 - [MESSAGE][INFO] - Input Username
+
+2023-03-30 00:16:45 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Input-username'
+
+2023-03-30 00:16:45 - [MESSAGE][INFO] - Input Password
+
+2023-03-30 00:16:46 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Input-password'
+
+2023-03-30 00:16:46 - [MESSAGE][INFO] - Klik Login
+
+2023-03-30 00:16:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-login' is clicked on
+
+2023-03-30 00:16:47 - [MESSAGE][INFO] - Klik Sauce Labs Backpack
+
+2023-03-30 00:16:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-backpack-sauce_labs_backpack' is clicked on
+
+2023-03-30 00:16:47 - [MESSAGE][INFO] - Klik Cart
+
+2023-03-30 00:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-cart' is clicked on
+
+2023-03-30 00:16:48 - [MESSAGE][INFO] - Klik Checkout
+
+2023-03-30 00:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-checkout' is clicked on
+
+2023-03-30 00:16:48 - [MESSAGE][INFO] - Klik Checkout : Your Information - First Name
+
+2023-03-30 00:16:49 - [MESSAGE][PASSED] - Text 'Nama Pertama' is set on object 'Object Repository/Input-YourInformation-FirstName'
+
+2023-03-30 00:16:49 - [MESSAGE][INFO] - Klik Checkout : Your Information - Last Name
+
+2023-03-30 00:16:50 - [MESSAGE][PASSED] - Text 'Nama Kedua' is set on object 'Object Repository/Input-YourInformation-LastName'
+
+2023-03-30 00:16:50 - [MESSAGE][INFO] - Klik Checkout : Your Information - Postal Code
+
+2023-03-30 00:16:51 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Input-YourInformation-PostalCode'
+
+2023-03-30 00:16:51 - [MESSAGE][INFO] - Klik Continue
+
+2023-03-30 00:16:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-Continue' is clicked on
+
+2023-03-30 00:16:52 - [MESSAGE][INFO] - Klik Finish
+
+2023-03-30 00:16:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-Finish' is clicked on
+
+2023-03-30 00:16:52 - [MESSAGE][INFO] - Klik Back Home
+
+2023-03-30 00:16:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-BackHome' is clicked on
+
+2023-03-30 00:16:53 - [MESSAGE][INFO] - Klik Menu
+
+2023-03-30 00:16:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-Menu' is clicked on
+
+2023-03-30 00:16:53 - [MESSAGE][INFO] - Klik Logout
+
+2023-03-30 00:16:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-logout' is clicked on
+
+2023-03-30 00:16:54 - [MESSAGE][PASSED] - order.orderbarang.OrderBarang is PASSED
+
+2023-03-30 00:16:54 - [TEST_STEP][PASSED] - order.orderbarang.OrderBarang("Sauce Labs Bike Light"): order.orderbarang.OrderBarang is PASSED
+
+2023-03-30 00:16:54 - [MESSAGE][INFO] - Open browser
+
+2023-03-30 00:16:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-30 00:16:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-30 00:16:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-30 00:16:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-30 00:16:56 - [MESSAGE][INFO] - Maximize windows
+
+2023-03-30 00:16:56 - [MESSAGE][PASSED] - Current window maximized
+
+2023-03-30 00:16:56 - [MESSAGE][INFO] - Input URL
+
+2023-03-30 00:16:58 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-03-30 00:16:58 - [MESSAGE][INFO] - Input Username
+
+2023-03-30 00:16:59 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Input-username'
+
+2023-03-30 00:16:59 - [MESSAGE][INFO] - Input Password
+
+2023-03-30 00:17:00 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Input-password'
+
+2023-03-30 00:17:00 - [MESSAGE][INFO] - Klik Login
+
+2023-03-30 00:17:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-login' is clicked on
+
+2023-03-30 00:17:01 - [MESSAGE][INFO] - Klik Sauce Labs Bike Light
+
+2023-03-30 00:17:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-backpack-sauce_labs_bike_light' is clicked on
+
+2023-03-30 00:17:01 - [MESSAGE][INFO] - Klik Cart
+
+2023-03-30 00:17:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-cart' is clicked on
+
+2023-03-30 00:17:02 - [MESSAGE][INFO] - Klik Checkout
+
+2023-03-30 00:17:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-checkout' is clicked on
+
+2023-03-30 00:17:02 - [MESSAGE][INFO] - Klik Checkout : Your Information - First Name
+
+2023-03-30 00:17:03 - [MESSAGE][PASSED] - Text 'Nama Pertama' is set on object 'Object Repository/Input-YourInformation-FirstName'
+
+2023-03-30 00:17:03 - [MESSAGE][INFO] - Klik Checkout : Your Information - Last Name
+
+2023-03-30 00:17:04 - [MESSAGE][PASSED] - Text 'Nama Kedua' is set on object 'Object Repository/Input-YourInformation-LastName'
+
+2023-03-30 00:17:04 - [MESSAGE][INFO] - Klik Checkout : Your Information - Postal Code
+
+2023-03-30 00:17:05 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Input-YourInformation-PostalCode'
+
+2023-03-30 00:17:05 - [MESSAGE][INFO] - Klik Continue
+
+2023-03-30 00:17:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-Continue' is clicked on
+
+2023-03-30 00:17:05 - [MESSAGE][INFO] - Klik Finish
+
+2023-03-30 00:17:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-Finish' is clicked on
+
+2023-03-30 00:17:06 - [MESSAGE][INFO] - Klik Back Home
+
+2023-03-30 00:17:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-BackHome' is clicked on
+
+2023-03-30 00:17:06 - [MESSAGE][INFO] - Klik Menu
+
+2023-03-30 00:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-Menu' is clicked on
+
+2023-03-30 00:17:07 - [MESSAGE][INFO] - Klik Logout
+
+2023-03-30 00:17:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-logout' is clicked on
+
+2023-03-30 00:17:08 - [MESSAGE][PASSED] - order.orderbarang.OrderBarang is PASSED
+
+2023-03-30 00:17:08 - [TEST_STEP][PASSED] - order.orderbarang.OrderBarang("Sauce Labs Bolt T-Shirt"): order.orderbarang.OrderBarang is PASSED
+
+2023-03-30 00:17:08 - [MESSAGE][INFO] - Open browser
+
+2023-03-30 00:17:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-30 00:17:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-30 00:17:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-30 00:17:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-30 00:17:10 - [MESSAGE][INFO] - Maximize windows
+
+2023-03-30 00:17:10 - [MESSAGE][PASSED] - Current window maximized
+
+2023-03-30 00:17:10 - [MESSAGE][INFO] - Input URL
+
+2023-03-30 00:17:12 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-03-30 00:17:12 - [MESSAGE][INFO] - Input Username
+
+2023-03-30 00:17:13 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Input-username'
+
+2023-03-30 00:17:13 - [MESSAGE][INFO] - Input Password
+
+2023-03-30 00:17:14 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Input-password'
+
+2023-03-30 00:17:14 - [MESSAGE][INFO] - Klik Login
+
+2023-03-30 00:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-login' is clicked on
+
+2023-03-30 00:17:14 - [MESSAGE][INFO] - Klik Sauce Labs Bolt T-Shirt
+
+2023-03-30 00:17:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-backpack-sauce-labs-bolt-tshirt' is clicked on
+
+2023-03-30 00:17:15 - [MESSAGE][INFO] - Klik Cart
+
+2023-03-30 00:17:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-cart' is clicked on
+
+2023-03-30 00:17:15 - [MESSAGE][INFO] - Klik Checkout
+
+2023-03-30 00:17:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-checkout' is clicked on
+
+2023-03-30 00:17:16 - [MESSAGE][INFO] - Klik Checkout : Your Information - First Name
+
+2023-03-30 00:17:17 - [MESSAGE][PASSED] - Text 'Nama Pertama' is set on object 'Object Repository/Input-YourInformation-FirstName'
+
+2023-03-30 00:17:17 - [MESSAGE][INFO] - Klik Checkout : Your Information - Last Name
+
+2023-03-30 00:17:17 - [MESSAGE][PASSED] - Text 'Nama Kedua' is set on object 'Object Repository/Input-YourInformation-LastName'
+
+2023-03-30 00:17:17 - [MESSAGE][INFO] - Klik Checkout : Your Information - Postal Code
+
+2023-03-30 00:17:18 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Input-YourInformation-PostalCode'
+
+2023-03-30 00:17:18 - [MESSAGE][INFO] - Klik Continue
+
+2023-03-30 00:17:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-Continue' is clicked on
+
+2023-03-30 00:17:19 - [MESSAGE][INFO] - Klik Finish
+
+2023-03-30 00:17:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-Finish' is clicked on
+
+2023-03-30 00:17:19 - [MESSAGE][INFO] - Klik Back Home
+
+2023-03-30 00:17:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-BackHome' is clicked on
+
+2023-03-30 00:17:20 - [MESSAGE][INFO] - Klik Menu
+
+2023-03-30 00:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-Menu' is clicked on
+
+2023-03-30 00:17:21 - [MESSAGE][INFO] - Klik Logout
+
+2023-03-30 00:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-logout' is clicked on
+
+2023-03-30 00:17:21 - [MESSAGE][PASSED] - order.orderbarang.OrderBarang is PASSED
+
+2023-03-30 00:17:21 - [TEST_STEP][PASSED] - order.orderbarang.OrderBarang("Sauce Labs Fleece Jacket"): order.orderbarang.OrderBarang is PASSED
+
+2023-03-30 00:17:21 - [MESSAGE][INFO] - Open browser
+
+2023-03-30 00:17:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-30 00:17:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-30 00:17:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-30 00:17:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-30 00:17:23 - [MESSAGE][INFO] - Maximize windows
+
+2023-03-30 00:17:23 - [MESSAGE][PASSED] - Current window maximized
+
+2023-03-30 00:17:23 - [MESSAGE][INFO] - Input URL
+
+2023-03-30 00:17:25 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-03-30 00:17:25 - [MESSAGE][INFO] - Input Username
+
+2023-03-30 00:17:26 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Input-username'
+
+2023-03-30 00:17:26 - [MESSAGE][INFO] - Input Password
+
+2023-03-30 00:17:27 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Input-password'
+
+2023-03-30 00:17:27 - [MESSAGE][INFO] - Klik Login
+
+2023-03-30 00:17:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-login' is clicked on
+
+2023-03-30 00:17:28 - [MESSAGE][INFO] - Klik Sauce Labs Fleece Jacket
+
+2023-03-30 00:17:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-sauce-labs-fleece-jacket' is clicked on
+
+2023-03-30 00:17:28 - [MESSAGE][INFO] - Klik Cart
+
+2023-03-30 00:17:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-cart' is clicked on
+
+2023-03-30 00:17:29 - [MESSAGE][INFO] - Klik Checkout
+
+2023-03-30 00:17:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-checkout' is clicked on
+
+2023-03-30 00:17:29 - [MESSAGE][INFO] - Klik Checkout : Your Information - First Name
+
+2023-03-30 00:17:30 - [MESSAGE][PASSED] - Text 'Nama Pertama' is set on object 'Object Repository/Input-YourInformation-FirstName'
+
+2023-03-30 00:17:30 - [MESSAGE][INFO] - Klik Checkout : Your Information - Last Name
+
+2023-03-30 00:17:31 - [MESSAGE][PASSED] - Text 'Nama Kedua' is set on object 'Object Repository/Input-YourInformation-LastName'
+
+2023-03-30 00:17:31 - [MESSAGE][INFO] - Klik Checkout : Your Information - Postal Code
+
+2023-03-30 00:17:32 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Input-YourInformation-PostalCode'
+
+2023-03-30 00:17:32 - [MESSAGE][INFO] - Klik Continue
+
+2023-03-30 00:17:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-Continue' is clicked on
+
+2023-03-30 00:17:32 - [MESSAGE][INFO] - Klik Finish
+
+2023-03-30 00:17:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-Finish' is clicked on
+
+2023-03-30 00:17:33 - [MESSAGE][INFO] - Klik Back Home
+
+2023-03-30 00:17:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-BackHome' is clicked on
+
+2023-03-30 00:17:34 - [MESSAGE][INFO] - Klik Menu
+
+2023-03-30 00:17:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-Menu' is clicked on
+
+2023-03-30 00:17:34 - [MESSAGE][INFO] - Klik Logout
+
+2023-03-30 00:17:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-logout' is clicked on
+
+2023-03-30 00:17:35 - [MESSAGE][PASSED] - order.orderbarang.OrderBarang is PASSED
+
+2023-03-30 00:17:35 - [TEST_STEP][PASSED] - order.orderbarang.OrderBarang("Sauce Labs Onesie"): order.orderbarang.OrderBarang is PASSED
+
+2023-03-30 00:17:35 - [MESSAGE][INFO] - Open browser
+
+2023-03-30 00:17:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-30 00:17:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-30 00:17:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-30 00:17:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-30 00:17:37 - [MESSAGE][INFO] - Maximize windows
+
+2023-03-30 00:17:37 - [MESSAGE][PASSED] - Current window maximized
+
+2023-03-30 00:17:37 - [MESSAGE][INFO] - Input URL
+
+2023-03-30 00:17:39 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-03-30 00:17:39 - [MESSAGE][INFO] - Input Username
+
+2023-03-30 00:17:40 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Input-username'
+
+2023-03-30 00:17:40 - [MESSAGE][INFO] - Input Password
+
+2023-03-30 00:17:41 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Input-password'
+
+2023-03-30 00:17:41 - [MESSAGE][INFO] - Klik Login
+
+2023-03-30 00:17:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-login' is clicked on
+
+2023-03-30 00:17:42 - [MESSAGE][INFO] - Klik Sauce Labs Onesie
+
+2023-03-30 00:17:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-sauce-labs-onesie' is clicked on
+
+2023-03-30 00:17:42 - [MESSAGE][INFO] - Klik Cart
+
+2023-03-30 00:17:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-cart' is clicked on
+
+2023-03-30 00:17:42 - [MESSAGE][INFO] - Klik Checkout
+
+2023-03-30 00:17:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-checkout' is clicked on
+
+2023-03-30 00:17:43 - [MESSAGE][INFO] - Klik Checkout : Your Information - First Name
+
+2023-03-30 00:17:44 - [MESSAGE][PASSED] - Text 'Nama Pertama' is set on object 'Object Repository/Input-YourInformation-FirstName'
+
+2023-03-30 00:17:44 - [MESSAGE][INFO] - Klik Checkout : Your Information - Last Name
+
+2023-03-30 00:17:45 - [MESSAGE][PASSED] - Text 'Nama Kedua' is set on object 'Object Repository/Input-YourInformation-LastName'
+
+2023-03-30 00:17:45 - [MESSAGE][INFO] - Klik Checkout : Your Information - Postal Code
+
+2023-03-30 00:17:46 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Input-YourInformation-PostalCode'
+
+2023-03-30 00:17:46 - [MESSAGE][INFO] - Klik Continue
+
+2023-03-30 00:17:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-Continue' is clicked on
+
+2023-03-30 00:17:46 - [MESSAGE][INFO] - Klik Finish
+
+2023-03-30 00:17:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-Finish' is clicked on
+
+2023-03-30 00:17:47 - [MESSAGE][INFO] - Klik Back Home
+
+2023-03-30 00:17:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-BackHome' is clicked on
+
+2023-03-30 00:17:47 - [MESSAGE][INFO] - Klik Menu
+
+2023-03-30 00:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-Menu' is clicked on
+
+2023-03-30 00:17:48 - [MESSAGE][INFO] - Klik Logout
+
+2023-03-30 00:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-logout' is clicked on
+
+2023-03-30 00:17:48 - [MESSAGE][PASSED] - order.orderbarang.OrderBarang is PASSED
+
+2023-03-30 00:17:48 - [TEST_STEP][PASSED] - order.orderbarang.OrderBarang("Test.allTheThings() T-Shirt (Red)"): order.orderbarang.OrderBarang is PASSED
+
+2023-03-30 00:17:48 - [MESSAGE][INFO] - Open browser
+
+2023-03-30 00:17:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-30 00:17:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-30 00:17:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-30 00:17:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-30 00:17:51 - [MESSAGE][INFO] - Maximize windows
+
+2023-03-30 00:17:51 - [MESSAGE][PASSED] - Current window maximized
+
+2023-03-30 00:17:51 - [MESSAGE][INFO] - Input URL
+
+2023-03-30 00:17:53 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-03-30 00:17:53 - [MESSAGE][INFO] - Input Username
+
+2023-03-30 00:17:54 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Input-username'
+
+2023-03-30 00:17:54 - [MESSAGE][INFO] - Input Password
+
+2023-03-30 00:17:55 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Input-password'
+
+2023-03-30 00:17:55 - [MESSAGE][INFO] - Klik Login
+
+2023-03-30 00:17:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-login' is clicked on
+
+2023-03-30 00:17:55 - [MESSAGE][INFO] - Klik Test.allTheThings() T-Shirt (Red)
+
+2023-03-30 00:17:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-Test.allTheThings()-T-Shirt-(Red)' is clicked on
+
+2023-03-30 00:17:56 - [MESSAGE][INFO] - Klik Cart
+
+2023-03-30 00:17:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-cart' is clicked on
+
+2023-03-30 00:17:56 - [MESSAGE][INFO] - Klik Checkout
+
+2023-03-30 00:17:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-checkout' is clicked on
+
+2023-03-30 00:17:57 - [MESSAGE][INFO] - Klik Checkout : Your Information - First Name
+
+2023-03-30 00:17:58 - [MESSAGE][PASSED] - Text 'Nama Pertama' is set on object 'Object Repository/Input-YourInformation-FirstName'
+
+2023-03-30 00:17:58 - [MESSAGE][INFO] - Klik Checkout : Your Information - Last Name
+
+2023-03-30 00:17:58 - [MESSAGE][PASSED] - Text 'Nama Kedua' is set on object 'Object Repository/Input-YourInformation-LastName'
+
+2023-03-30 00:17:58 - [MESSAGE][INFO] - Klik Checkout : Your Information - Postal Code
+
+2023-03-30 00:17:59 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Input-YourInformation-PostalCode'
+
+2023-03-30 00:17:59 - [MESSAGE][INFO] - Klik Continue
+
+2023-03-30 00:18:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-Continue' is clicked on
+
+2023-03-30 00:18:00 - [MESSAGE][INFO] - Klik Finish
+
+2023-03-30 00:18:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-Finish' is clicked on
+
+2023-03-30 00:18:00 - [MESSAGE][INFO] - Klik Back Home
+
+2023-03-30 00:18:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-BackHome' is clicked on
+
+2023-03-30 00:18:01 - [MESSAGE][INFO] - Klik Menu
+
+2023-03-30 00:18:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-Menu' is clicked on
+
+2023-03-30 00:18:02 - [MESSAGE][INFO] - Klik Logout
+
+2023-03-30 00:18:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Click-logout' is clicked on
+
+2023-03-30 00:18:02 - [MESSAGE][PASSED] - order.orderbarang.OrderBarang is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-30 00:16:38 - [TEST_SUITE][PASSED] - orderbarang: Test Cases/order]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
